@@ -7,9 +7,10 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Sample webpage</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> -->
+		<link rel="stylesheet" type="text/css" href="css\canvas.css">
+		<link rel="stylesheet" type="text/css" href="css\cards.css">
+		<link rel="stylesheet" type="text/css" href="css\navbar.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 	</head>
 	<body>
 		<canvas></canvas>
@@ -39,7 +40,6 @@
 				<span style="padding:1.5vh">TECH</span>
 				<span> </span>
 				<span style="padding:1.5vh">SAGA</span>
-				<!-- <span style="padding:1.5vh">2024</span> -->
 			</section>
 		</section>	
 		<div class="about vt323-regular">
@@ -58,31 +58,54 @@
 		<div class="explore vt323-regular">
 			EXPLORE
 		</div>
-		<section class="container">
-			<div class="card" id="c1">
-				<div class="content">
-					<h2>Card 1</h2>
-					<h3>Sample 1</h3>
-					<p>Sample card for event description for Byteburst 2025</p>
-					<a href="#">More</a>
-				</div>
+		<section class="container swiper">
+			<div class="cardwrapper">
+			        <div class="card-wrap swiper-wrapper">
+			            <div class="card swiper-slide" id="c1">
+				            <div class="content">
+					            <h2>Card 1</h2>
+					            <h3>Sample 1</h3>
+					            <p>Sample card for event description for Byteburst 2025</p>
+					            <a href="#">More</a>
+				            </div>
+			            </div>
+			            <div class="card swiper-slide" id="c2">
+			            	<div class="content">
+			            		<h2>Card 2</h2>
+			            		<h3>Sample 2</h3>
+			            		<p>Sample card for event description for Byteburst 2025</p>
+			            		<a href="#">More</a>
+			            	</div>
+			            </div>
+			            <div class="card swiper-slide" id="c3">
+			            	<div class="content">
+			            		<h2>Card 3</h2>
+			            		<h3>Sample 3</h3>
+			            		<p>Sample card for event description for Byteburst 2025</p>
+			            		<a href="#">More</a>
+			            	</div>
+			            </div>
+						<div class="card swiper-slide" id="c4">
+			            	<div class="content">
+			            		<h2>Card 2</h2>
+			            		<h3>Sample 2</h3>
+			            		<p>Sample card for event description for Byteburst 2025</p>
+			            		<a href="#">More</a>
+			            	</div>
+			            </div>
+						<div class="card swiper-slide" id="c5">
+				            <div class="content">
+					            <h2>Card 1</h2>
+					            <h3>Sample 1</h3>
+					            <p>Sample card for event description for Byteburst 2025</p>
+					            <a href="#">More</a>
+				            </div>
+			            </div>
+					</div>
 			</div>
-			<div class="card" id="c2">
-				<div class="content">
-					<h2>Card 2</h2>
-					<h3>Sample 2</h3>
-					<p>Sample card for event description for Byteburst 2025</p>
-					<a href="#">More</a>
-				</div>
-			</div>
-			<div class="card" id="c3">
-				<div class="content">
-					<h2>Card 3</h2>
-					<h3>Sample 3</h3>
-					<p>Sample card for event description for Byteburst 2025</p>
-					<a href="#">More</a>
-				</div>
-			</div>
+			<div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 		</section>
 		<footer id="footer" role="contentinfo">
 
@@ -99,5 +122,7 @@
 			"max-glare":1,
 		});
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="script\slide.js"></script>
 	</body>
 	</html>
