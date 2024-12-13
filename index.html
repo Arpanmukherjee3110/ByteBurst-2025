@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<lang en>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Sample webpage</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> -->
+	</head>
+	<body>
+		<canvas></canvas>
+		<nav class="navigation vt323-regular">
+			<span class="enlarge">HOME</span>
+			<span class="enlarge">ABOUT</span>
+			<span class="enlarge">EXPLORE</span>
+			<span class="enlarge">OUR TEAM</span>
+		</nav>
+		<div class="wheel">
+			<img class="wheelimg" src="Assets\wheel.png">
+		</div>
+		<section class="vt323-regular front">
+			<span>B</span>
+			<span>Y</span>
+			<span>T</span>
+			<span>E</span>
+			<span><img src="Assets\rocket.png" style="width:4vw;"></span>
+			<span>B</span>
+			<span>U</span>
+			<span>R</span>
+			<span>S</span>
+			<span>T</span>
+			<section class="below">
+				<span style="padding:1.5vh">A</span>
+				<span> </span>
+				<span style="padding:1.5vh">TECH</span>
+				<span> </span>
+				<span style="padding:1.5vh">SAGA</span>
+				<!-- <span style="padding:1.5vh">2024</span> -->
+			</section>
+		</section>	
+		<div class="about vt323-regular">
+			ABOUT
+		</div>
+		<section class="aboutbody vt323-regular">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab neque saepe numquam odio odit veniam, nobis illo dolor minima a, blanditiis fugit voluptatem quo sit repellat, nam culpa minus.
+		</section>
+		<div class="explore vt323-regular">
+			EXPLORE
+		</div>
+		<section class="container">
+			<div class="card" id="c1">
+				<div class="content">
+					<h2>Card 1</h2>
+					<h3>Sample 1</h3>
+					<p>Sample card for event description for Byteburst 2025</p>
+					<a href="#">More</a>
+				</div>
+			</div>
+			<div class="card" id="c2">
+				<div class="content">
+					<h2>Card 2</h2>
+					<h3>Sample 2</h3>
+					<p>Sample card for event description for Byteburst 2025</p>
+					<a href="#">More</a>
+				</div>
+			</div>
+			<div class="card" id="c3">
+				<div class="content">
+					<h2>Card 3</h2>
+					<h3>Sample 3</h3>
+					<p>Sample card for event description for Byteburst 2025</p>
+					<a href="#">More</a>
+				</div>
+			</div>
+		</section>
+		<footer id="footer" role="contentinfo">
+
+		</footer>
+	<script src="script\star_script.js"></script>
+	<script src="script\card.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".card"),{
+			max:25,
+			speed:400,
+			glare:true,
+			"max-glare":1,
+		});
+	</script>
+	</body>
+	</html>
