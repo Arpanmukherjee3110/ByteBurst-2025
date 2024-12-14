@@ -16,6 +16,9 @@ new Swiper('.cardwrapper', {
         0:{
             slidesPerView:1
         },
+        540:{
+          slidesPerView:2
+        },
         768:{
             slidesPerView:3
         },
