@@ -44,12 +44,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:60%;
     flex-wrap: wrap;
     left:45%;
     background: linear-gradient(185deg, rgba(78,78,82, 0.6), rgba(26,26,31,0.5));
     border-radius: 3vh;
-    height:200%;
+    height:300%;
     color: aliceblue;
     font-family: "VT323", monospace;
 	  font-weight: 700;
@@ -138,4 +138,51 @@ body{
 .container:focus-within{
   box-shadow: aliceblue 0vh 0vh 3vh;
   transition-duration: 300ms;
+}
+.depart-radio{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:2vh;
+  padding-bottom:0vh ;
+}
+.department{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+.values{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cse{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.ece{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.ee{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.me{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.ce{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
 }
