@@ -10,9 +10,36 @@
 </head>
 <body>
     <canvas></canvas>
-
-
+    <div class="logodiv"><img src="Assets\logo.jpg" id="logo"></div>
+    <section class="first-section">
+        <div class="container">
+            Details
+            <div class="content" style="padding-top:4vh;">
+                <input class="vt323-regular" type="text" placeholder="" id="name">
+                <label class="label vt323-regular" id="labelname">Name</label>
+            </div>
+            <div class="content" style="left:6%;">
+                <input class="vt323-regular" type="text" placeholder="" id="email">
+                <label class="label vt323-regular" id="labelemail">E-mail</label>
+            </div>
+            <div class="content" style="left:6.3%;">
+                <input class="vt323-regular" type="text" placeholder="" id="roll">
+                <label class="label vt323-regular" id="labelroll">Roll No</label>
+            </div>
+            <div class="radio"><input type="radio"></div>
+        </div>
+    </section>
+    
     
     <script src="script\star_script.js"></script>
+    <script src="script\card.js"></script>
+    <script>
+		VanillaTilt.init(document.querySelectorAll(".container"),{
+			max:25,
+			speed:400,
+			glare:true,
+			"max-glare":1,
+		});
+	</script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;700&display=swap');
 body{
     width: 100%;
     height: 100vh;
@@ -9,3 +10,132 @@ body{
 	font-weight: 400;
 	font-style: normal;
   }
+  #logo{
+    height:4.5vw;
+    }
+    .logodiv{
+    position: absolute;
+    top:5%;
+    left:2.5vw;
+    animation: logoanim 1.3s infinite linear;
+    }
+    @keyframes logoanim {
+      0%{
+        transform: translateY(0%);
+      }
+      50%{
+        transform: translateY(13%);
+      }
+      100%{
+        transform:translateY(0%);
+      }
+    }
+  .first-section{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:30%;
+    width:50%;
+    height:30%;
+  }
+  .container {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    flex-wrap: wrap;
+    left:45%;
+    background: linear-gradient(185deg, rgba(78,78,82, 0.6), rgba(26,26,31,0.5));
+    border-radius: 3vh;
+    height:200%;
+    color: aliceblue;
+    font-family: "VT323", monospace;
+	  font-weight: 700;
+	  font-style: normal;
+    font-size: 3.5vh;
+  }
+  .content{
+    width:100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right:2vh;
+  }
+  #name{
+    width:67%;
+    background: transparent;
+    border-bottom: aliceblue solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color:aliceblue;
+    padding: 2vh;
+    border-radius: 2vh;
+    font-size: 2.2vh;
+  }
+  #email{
+    width:67%;
+    background: transparent;
+    border-bottom: aliceblue solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color:aliceblue;
+    padding:2vh;
+    border-radius: 2vh;
+    font-size: 2.2vh;
+  }
+  #roll{
+    width:67%;
+    background: transparent;
+    border-bottom: aliceblue solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color:aliceblue;
+    padding:2vh;
+    border-radius: 2vh;
+    font-size: 2.2vh;
+  }
+  #labelname {
+    color: aliceblue;
+    font-size: 2.7vh;
+    position: absolute;
+    left: 19%;
+    }
+    
+#labelemail{
+  color:aliceblue;
+  font-size: 2.7vh;
+  position:relative;
+  left:-71%;
+}
+#labelroll{
+  color:aliceblue;
+  font-size: 2.7vh;
+  position:relative;
+  left:-71%;
+}
+#name:focus~#labelname{
+  transform: translateY(-3.7vh);
+  transition-duration: 800ms;
+}
+#email:focus~#labelemail{
+  transform: translateY(-3.7vh);
+  transition-duration: 800ms;
+}
+#roll:focus~#labelroll{
+  transform: translateY(-3.7vh);
+  transition-duration: 800ms;
+}
+.container:focus-within{
+  box-shadow: aliceblue 0vh 0vh 3vh;
+  transition-duration: 300ms;
+}
