@@ -224,7 +224,7 @@ body{
  }
  
 #c1{
-	background-image: url("Assets/techno_commercial.jpg");
+	background-image: url("Assets/tech_exhibition.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -259,7 +259,7 @@ body{
 	opacity: 0.7;
 }
 #c6{
-	background-image: url("Assets/tech_exhibition.jpg");
+	background-image: url("Assets/techno_commercial_new.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
