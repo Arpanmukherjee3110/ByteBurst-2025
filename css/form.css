@@ -186,3 +186,46 @@ body{
   font-weight: 300;
   font-size: 3vh;
 }
+.year-radio{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:2vh;
+  padding-bottom:0vh ;
+}
+.year{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+.values{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.second{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.third{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+.fourth{
+  padding:2vh;
+  font-weight: 300;
+  font-size: 3vh;
+}
+

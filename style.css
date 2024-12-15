@@ -224,35 +224,63 @@ body{
  }
  
 #c1{
-	background-image: url("Assets/card1.png");
+	background-image: url("Assets/techno_commercial.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.7;
 }
 #c2{
-	background-image: url("Assets/card2.png");
+	background-image: url("Assets/uiux.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.7;
 }
 #c3{
-	background-image: url("Assets/card3.jpg");
+	background-image: url("Assets/webdev.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.7;
 }
 #c4{
-	background-image: url("Assets/card1.png");
+	background-image: url("Assets/hackathon.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.7;
 }
 #c5{
-	background-image: url("Assets/card2.png");
+	background-image: url("Assets/autocad_civil.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+#c6{
+	background-image: url("Assets/tech_exhibition.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+#c7{
+	background-image: url("Assets/appdev.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+#c8{
+	background-image: url("Assets/robotics.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+}
+#c9{
+	background-image: url("Assets/prompt.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
